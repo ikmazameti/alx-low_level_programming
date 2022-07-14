@@ -1,4 +1,4 @@
-# ikmazameti's alx project/task
+# This is my alx project(task)
 # 0x06. C - More pointers, arrays and strings
 
 - This project is about more of pointers, arrays and strings
