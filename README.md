@@ -1,8 +1,8 @@
 
 # Low-level programming & Algorithm
 
-This repository contains solution programs written for the Low-lovel programming & Algorithm projects/tasks.
-This is part of the  Full Stack Software Engineer programme organised by Alx  Africa which occurred throughout the duration of the year 2022 June, cohort022 curriculum.
+This repository contains solution programs written for the Low-level programming & Algorithm projects/tasks.
+This is part of the  Full Stack Software Engineer program organized by Alx  Africa which occurred throughout the duration of the year 2022 June, cohort022 curriculum.
  The projects are written in C programming language.
 
 
