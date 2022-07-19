@@ -10,17 +10,26 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len = 0;
+	int count = 0, flag;
+	char *start = accept;
 
-	/*return 0 if any one is NULLS*/
-	if ((s == '\0') || (accept == '\0'))
-		return (len);
-	/*return s char position if found in accept*/
-	/*if not found return NULL*/
-	while (*s && _strchr(accept, *s++))
+	while (*s)
 	{
-		len++;
+		flag = 0;
+		while (*accept)
+		{
+			if (*accept == *s)
+			{
+				count++;
+				flag = 1;
+				break;
+			}
+			accept++;
+		}
+		s++;
+		accept = start;
+		if (flag == 0)
+			break;
 	}
-
-	return (len);
+	return (count);
 }
