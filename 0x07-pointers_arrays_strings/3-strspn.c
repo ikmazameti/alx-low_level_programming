@@ -7,6 +7,7 @@
  *Return:Returns the number of bytes in the initial segment
  *of s which consist only of bytes from accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int len = 0;
@@ -20,29 +21,6 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		len++;
 	}
+
 	return (len);
-}
-/**
- *_strchr-locates a character in a string.
- *@s:pointer to a string.
- *@c:Character to locate within s.
- *
- *Return:pointer to the first occurrence of the character c in the string s
- *or Null if not found.
- */
-char *_strchr(char *s, char c)
-{
-	char *char_find = '\0';
-	/*handling null pointer*/
-	if (s != '\0')
-	{
-		do {
-			if (*s == (char)c)
-			{
-				char_find = s;
-				break;
-			}
-		} while (*s++);
-	}
-	return (char_find);
 }
