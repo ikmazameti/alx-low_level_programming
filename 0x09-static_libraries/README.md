@@ -1,1 +1,1 @@
-static lib lesson
+static lib lessons
