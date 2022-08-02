@@ -1,11 +1,11 @@
-#ifndef STRUCT_FILE
-#define STRUCT_FILE
+#ifndef DOG_H
+#define DOG_H
 
 /**
- * struct dog - Structure for dog
- * @name: Name of dog
- * @age: Dog's age
- * @owner: Owner's name
+ * struct dog - A new type for representing dog.
+ * @name: The name of a dog.
+ * @age: The age of a dog.
+ * @owner: The name of a dog owner.
  */
 
 struct dog
