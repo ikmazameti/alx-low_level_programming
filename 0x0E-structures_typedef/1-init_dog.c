@@ -3,15 +3,15 @@
 
 /**
  * init_dog - Initialize struct
- * @d: Pointer to structure
- * @name: pointer to the name of dog
- * @age: age of dog
+ * @d: Pointer to dog structure.
+ * @name: Pointer to the name of dog.
+ * @age: Age of dog
  * @owner: Pointer to owner of dog
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
